@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		247E62892BB2218F00ABE803 /* TvMazeSUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E62882BB2218F00ABE803 /* TvMazeSUIApp.swift */; };
+		247E628B2BB2218F00ABE803 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E628A2BB2218F00ABE803 /* ContentView.swift */; };
+		247E628D2BB2219000ABE803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247E628C2BB2219000ABE803 /* Assets.xcassets */; };
+		247E62912BB2219000ABE803 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247E62902BB2219000ABE803 /* Preview Assets.xcassets */; };
+		247E629B2BB2219000ABE803 /* TvMazeSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E629A2BB2219000ABE803 /* TvMazeSUITests.swift */; };
+		247E62A52BB2219000ABE803 /* TvMazeSUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E62A42BB2219000ABE803 /* TvMazeSUIUITests.swift */; };
+		247E62A72BB2219000ABE803 /* TvMazeSUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E62A62BB2219000ABE803 /* TvMazeSUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		247E62972BB2219000ABE803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 247E627D2BB2218F00ABE803 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 247E62842BB2218F00ABE803;
+			remoteInfo = TvMazeSUI;
+		};
+		247E62A12BB2219000ABE803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 247E627D2BB2218F00ABE803 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 247E62842BB2218F00ABE803;
+			remoteInfo = TvMazeSUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		247E62852BB2218F00ABE803 /* TvMazeSUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TvMazeSUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		247E62882BB2218F00ABE803 /* TvMazeSUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvMazeSUIApp.swift; sourceTree = "<group>"; };
+		247E628A2BB2218F00ABE803 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		247E628C2BB2219000ABE803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		247E628E2BB2219000ABE803 /* TvMazeSUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TvMazeSUI.entitlements; sourceTree = "<group>"; };
+		247E62902BB2219000ABE803 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		247E62962BB2219000ABE803 /* TvMazeSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TvMazeSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		247E629A2BB2219000ABE803 /* TvMazeSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvMazeSUITests.swift; sourceTree = "<group>"; };
+		247E62A02BB2219000ABE803 /* TvMazeSUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TvMazeSUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		247E62A42BB2219000ABE803 /* TvMazeSUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvMazeSUIUITests.swift; sourceTree = "<group>"; };
+		247E62A62BB2219000ABE803 /* TvMazeSUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvMazeSUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		247E62822BB2218F00ABE803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247E62932BB2219000ABE803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247E629D2BB2219000ABE803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		247E627C2BB2218F00ABE803 = {
+			isa = PBXGroup;
+			children = (
+				247E62872BB2218F00ABE803 /* TvMazeSUI */,
+				247E62992BB2219000ABE803 /* TvMazeSUITests */,
+				247E62A32BB2219000ABE803 /* TvMazeSUIUITests */,
+				247E62862BB2218F00ABE803 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		247E62862BB2218F00ABE803 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				247E62852BB2218F00ABE803 /* TvMazeSUI.app */,
+				247E62962BB2219000ABE803 /* TvMazeSUITests.xctest */,
+				247E62A02BB2219000ABE803 /* TvMazeSUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247E62872BB2218F00ABE803 /* TvMazeSUI */ = {
+			isa = PBXGroup;
+			children = (
+				247E62882BB2218F00ABE803 /* TvMazeSUIApp.swift */,
+				247E628A2BB2218F00ABE803 /* ContentView.swift */,
+				247E628C2BB2219000ABE803 /* Assets.xcassets */,
+				247E628E2BB2219000ABE803 /* TvMazeSUI.entitlements */,
+				247E628F2BB2219000ABE803 /* Preview Content */,
+			);
+			path = TvMazeSUI;
+			sourceTree = "<group>";
+		};
+		247E628F2BB2219000ABE803 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				247E62902BB2219000ABE803 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		247E62992BB2219000ABE803 /* TvMazeSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				247E629A2BB2219000ABE803 /* TvMazeSUITests.swift */,
+			);
+			path = TvMazeSUITests;
+			sourceTree = "<group>";
+		};
+		247E62A32BB2219000ABE803 /* TvMazeSUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				247E62A42BB2219000ABE803 /* TvMazeSUIUITests.swift */,
+				247E62A62BB2219000ABE803 /* TvMazeSUIUITestsLaunchTests.swift */,
+			);
+			path = TvMazeSUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		247E62842BB2218F00ABE803 /* TvMazeSUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247E62AA2BB2219000ABE803 /* Build configuration list for PBXNativeTarget "TvMazeSUI" */;
+			buildPhases = (
+				247E62812BB2218F00ABE803 /* Sources */,
+				247E62822BB2218F00ABE803 /* Frameworks */,
+				247E62832BB2218F00ABE803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TvMazeSUI;
+			productName = TvMazeSUI;
+			productReference = 247E62852BB2218F00ABE803 /* TvMazeSUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		247E62952BB2219000ABE803 /* TvMazeSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247E62AD2BB2219000ABE803 /* Build configuration list for PBXNativeTarget "TvMazeSUITests" */;
+			buildPhases = (
+				247E62922BB2219000ABE803 /* Sources */,
+				247E62932BB2219000ABE803 /* Frameworks */,
+				247E62942BB2219000ABE803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				247E62982BB2219000ABE803 /* PBXTargetDependency */,
+			);
+			name = TvMazeSUITests;
+			productName = TvMazeSUITests;
+			productReference = 247E62962BB2219000ABE803 /* TvMazeSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		247E629F2BB2219000ABE803 /* TvMazeSUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247E62B02BB2219000ABE803 /* Build configuration list for PBXNativeTarget "TvMazeSUIUITests" */;
+			buildPhases = (
+				247E629C2BB2219000ABE803 /* Sources */,
+				247E629D2BB2219000ABE803 /* Frameworks */,
+				247E629E2BB2219000ABE803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				247E62A22BB2219000ABE803 /* PBXTargetDependency */,
+			);
+			name = TvMazeSUIUITests;
+			productName = TvMazeSUIUITests;
+			productReference = 247E62A02BB2219000ABE803 /* TvMazeSUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		247E627D2BB2218F00ABE803 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					247E62842BB2218F00ABE803 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					247E62952BB2219000ABE803 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 247E62842BB2218F00ABE803;
+					};
+					247E629F2BB2219000ABE803 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 247E62842BB2218F00ABE803;
+					};
+				};
+			};
+			buildConfigurationList = 247E62802BB2218F00ABE803 /* Build configuration list for PBXProject "TvMazeSUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 247E627C2BB2218F00ABE803;
+			productRefGroup = 247E62862BB2218F00ABE803 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				247E62842BB2218F00ABE803 /* TvMazeSUI */,
+				247E62952BB2219000ABE803 /* TvMazeSUITests */,
+				247E629F2BB2219000ABE803 /* TvMazeSUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		247E62832BB2218F00ABE803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247E62912BB2219000ABE803 /* Preview Assets.xcassets in Resources */,
+				247E628D2BB2219000ABE803 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247E62942BB2219000ABE803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247E629E2BB2219000ABE803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		247E62812BB2218F00ABE803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247E628B2BB2218F00ABE803 /* ContentView.swift in Sources */,
+				247E62892BB2218F00ABE803 /* TvMazeSUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247E62922BB2219000ABE803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247E629B2BB2219000ABE803 /* TvMazeSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247E629C2BB2219000ABE803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247E62A52BB2219000ABE803 /* TvMazeSUIUITests.swift in Sources */,
+				247E62A72BB2219000ABE803 /* TvMazeSUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		247E62982BB2219000ABE803 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 247E62842BB2218F00ABE803 /* TvMazeSUI */;
+			targetProxy = 247E62972BB2219000ABE803 /* PBXContainerItemProxy */;
+		};
+		247E62A22BB2219000ABE803 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 247E62842BB2218F00ABE803 /* TvMazeSUI */;
+			targetProxy = 247E62A12BB2219000ABE803 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		247E62A82BB2219000ABE803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		247E62A92BB2219000ABE803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		247E62AB2BB2219000ABE803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TvMazeSUI/TvMazeSUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TvMazeSUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 6CTJ6Q5EM3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vini.torres.TvMazeSUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		247E62AC2BB2219000ABE803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TvMazeSUI/TvMazeSUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TvMazeSUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 6CTJ6Q5EM3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vini.torres.TvMazeSUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		247E62AE2BB2219000ABE803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CTJ6Q5EM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vini.torres.TvMazeSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TvMazeSUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TvMazeSUI";
+			};
+			name = Debug;
+		};
+		247E62AF2BB2219000ABE803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CTJ6Q5EM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vini.torres.TvMazeSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TvMazeSUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TvMazeSUI";
+			};
+			name = Release;
+		};
+		247E62B12BB2219000ABE803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CTJ6Q5EM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vini.torres.TvMazeSUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TvMazeSUI;
+			};
+			name = Debug;
+		};
+		247E62B22BB2219000ABE803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CTJ6Q5EM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vini.torres.TvMazeSUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TvMazeSUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		247E62802BB2218F00ABE803 /* Build configuration list for PBXProject "TvMazeSUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247E62A82BB2219000ABE803 /* Debug */,
+				247E62A92BB2219000ABE803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247E62AA2BB2219000ABE803 /* Build configuration list for PBXNativeTarget "TvMazeSUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247E62AB2BB2219000ABE803 /* Debug */,
+				247E62AC2BB2219000ABE803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247E62AD2BB2219000ABE803 /* Build configuration list for PBXNativeTarget "TvMazeSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247E62AE2BB2219000ABE803 /* Debug */,
+				247E62AF2BB2219000ABE803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247E62B02BB2219000ABE803 /* Build configuration list for PBXNativeTarget "TvMazeSUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247E62B12BB2219000ABE803 /* Debug */,
+				247E62B22BB2219000ABE803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 247E627D2BB2218F00ABE803 /* Project object */;
+}
