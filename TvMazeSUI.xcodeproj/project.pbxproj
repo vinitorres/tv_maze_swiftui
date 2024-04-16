@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243382982BBD0777004EDE31 /* TvShowsGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243382972BBD0777004EDE31 /* TvShowsGalleryView.swift */; };
+		2469C7B62BCE2A110027EE29 /* MainNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469C7B52BCE2A110027EE29 /* MainNavigationView.swift */; };
+		2469C7B92BCE2A940027EE29 /* FavoritiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469C7B82BCE2A940027EE29 /* FavoritiesView.swift */; };
 		247E62892BB2218F00ABE803 /* TvMazeSUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E62882BB2218F00ABE803 /* TvMazeSUIApp.swift */; };
-		247E628B2BB2218F00ABE803 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E628A2BB2218F00ABE803 /* ContentView.swift */; };
 		247E628D2BB2219000ABE803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247E628C2BB2219000ABE803 /* Assets.xcassets */; };
 		247E62912BB2219000ABE803 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247E62902BB2219000ABE803 /* Preview Assets.xcassets */; };
 		247E629B2BB2219000ABE803 /* TvMazeSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E629A2BB2219000ABE803 /* TvMazeSUITests.swift */; };
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		243382972BBD0777004EDE31 /* TvShowsGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowsGalleryView.swift; sourceTree = "<group>"; };
+		2469C7B52BCE2A110027EE29 /* MainNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationView.swift; sourceTree = "<group>"; };
+		2469C7B82BCE2A940027EE29 /* FavoritiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritiesView.swift; sourceTree = "<group>"; };
 		247E62852BB2218F00ABE803 /* TvMazeSUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TvMazeSUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		247E62882BB2218F00ABE803 /* TvMazeSUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvMazeSUIApp.swift; sourceTree = "<group>"; };
-		247E628A2BB2218F00ABE803 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		247E628C2BB2219000ABE803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		247E628E2BB2219000ABE803 /* TvMazeSUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TvMazeSUI.entitlements; sourceTree = "<group>"; };
 		247E62902BB2219000ABE803 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -72,6 +76,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		243382922BBC2ED8004EDE31 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		243382932BBCF774004EDE31 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2469C7B72BCE2A6D0027EE29 /* Favorities */,
+				2469C7B42BCE29FC0027EE29 /* MainNavigation */,
+				243382942BBCF788004EDE31 /* TvShowsGallery */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		243382942BBCF788004EDE31 /* TvShowsGallery */ = {
+			isa = PBXGroup;
+			children = (
+				243382972BBD0777004EDE31 /* TvShowsGalleryView.swift */,
+			);
+			path = TvShowsGallery;
+			sourceTree = "<group>";
+		};
+		243382952BBCF7C6004EDE31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		243382962BBCF7DE004EDE31 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		243382992BBD0A60004EDE31 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2433829A2BBD0A70004EDE31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				247E628C2BB2219000ABE803 /* Assets.xcassets */,
+				247E628E2BB2219000ABE803 /* TvMazeSUI.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2469C7B42BCE29FC0027EE29 /* MainNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				2469C7B52BCE2A110027EE29 /* MainNavigationView.swift */,
+			);
+			path = MainNavigation;
+			sourceTree = "<group>";
+		};
+		2469C7B72BCE2A6D0027EE29 /* Favorities */ = {
+			isa = PBXGroup;
+			children = (
+				2469C7B82BCE2A940027EE29 /* FavoritiesView.swift */,
+			);
+			path = Favorities;
+			sourceTree = "<group>";
+		};
 		247E627C2BB2218F00ABE803 = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +170,14 @@
 		247E62872BB2218F00ABE803 /* TvMazeSUI */ = {
 			isa = PBXGroup;
 			children = (
-				247E62882BB2218F00ABE803 /* TvMazeSUIApp.swift */,
-				247E628A2BB2218F00ABE803 /* ContentView.swift */,
-				247E628C2BB2219000ABE803 /* Assets.xcassets */,
-				247E628E2BB2219000ABE803 /* TvMazeSUI.entitlements */,
+				2433829A2BBD0A70004EDE31 /* Resources */,
+				243382932BBCF774004EDE31 /* Features */,
+				243382952BBCF7C6004EDE31 /* Model */,
+				243382992BBD0A60004EDE31 /* Network */,
 				247E628F2BB2219000ABE803 /* Preview Content */,
+				243382922BBC2ED8004EDE31 /* Services */,
+				243382962BBCF7DE004EDE31 /* Shared */,
+				247E62882BB2218F00ABE803 /* TvMazeSUIApp.swift */,
 			);
 			path = TvMazeSUI;
 			sourceTree = "<group>";
@@ -259,7 +337,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				247E628B2BB2218F00ABE803 /* ContentView.swift in Sources */,
+				2469C7B62BCE2A110027EE29 /* MainNavigationView.swift in Sources */,
+				243382982BBD0777004EDE31 /* TvShowsGalleryView.swift in Sources */,
+				2469C7B92BCE2A940027EE29 /* FavoritiesView.swift in Sources */,
 				247E62892BB2218F00ABE803 /* TvMazeSUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,7 +496,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = TvMazeSUI/TvMazeSUI.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TvMazeSUI/Resources/TvMazeSUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TvMazeSUI/Preview Content\"";
@@ -454,7 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = TvMazeSUI/TvMazeSUI.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TvMazeSUI/Resources/TvMazeSUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TvMazeSUI/Preview Content\"";
